@@ -1,0 +1,10 @@
+{
+    "project_name": "The Name of the project",
+    "folder_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Shrijit Basak (SB-Jr)",
+    "description": "Description for the project",
+    "open_source_license": ["GPLv3", "MIT", "BSD"],
+    "remote_repo_name": "Git versioning remote repository Name",
+    "github_repo_link": "git@github.com:SB-Jr/{{ cookiecutter.remote_repo_name }}.git",
+    "gitlab_repo_link": "git@gitlab.com:SB-Jr/{{ cookiecutter.remote_repo_name }}.git"
+}

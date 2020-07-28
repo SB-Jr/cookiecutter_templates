@@ -1,9 +1,0 @@
-{
-    "project_name": "project_name",
-    "repo_name": "{{ cookiecutter.project_name.lower().replace('-', '_') }}",
-    "author_name": "Shrijit Basak(SB-Jr)",
-    "description": "{{ cookiecutter.description }}",
-    "open_source_license": ["GPLv3", "MIT", "BSD"],
-    "github_repo_link": "git@github.com:SB-Jr/{{ cookiecutter.remote_repo_name }}.git",
-    "gitlab_repo_link": "git@gitlab.com:SB-Jr/{{ cookiecutter.remote_repo_name }}.git",
-}

@@ -1,0 +1,35 @@
+# Byte compiled files
+__pycache__/
+
+# Distribution/packaging 
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# pip
+pip-log.txt
+
+# Database
+.db
+.rdb
+
+# Pycharm
+.idea
+
+# Vs cod(e/ium)
+.vscode/
+
+# Jupyter NB checkpoints
+.ipynb_checkpoints/
+
+# data
+data/
+
+#vim
+.swp
+.swo
